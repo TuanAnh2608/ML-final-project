@@ -102,7 +102,6 @@ Phân cụm lập trình viên theo công nghệ sử dụng (cột ma trận nh
 ### Điểm nên viết trong báo cáo
 
 - Hạn chế dữ liệu: người trả lời là nhóm tự chọn, thiên về người dùng Stack Overflow tích cực, không đại diện toàn bộ lập trình viên.
-- Giả định tỉ giá trung bình năm 2025 và việc loại UAH, freelancer, outlier.
 - `Country` có thể dự đoán rất mạnh nên nên phân tích riêng.
 - Sau one-hot/multi-hot có thể lên hàng trăm đến hơn 1.000 cột, đây là lý do chính đáng cho giảm chiều.
 - Ghi nguồn và giấy phép ODbL.
@@ -119,7 +118,7 @@ Phân cụm lập trình viên theo công nghệ sử dụng (cột ma trận nh
 
 ## 4. Những điều cần xác nhận, làm rõ
 
-### Gấp (trước 23:59 hôm nay)
+### Gấp
 
 1. **Kiểm tra file đăng ký của lớp** xem nhóm khác đã chọn dataset này, hoặc cùng mô hình chưa. Nếu trùng: đổi biến mục tiêu (gợi ý `JobSat`, `RemoteWork`, `AIThreat`, `DevType`) và/hoặc đổi bộ mô hình.
 2. **Danh sách thành viên nhóm** (tối đa 3) và ai là trưởng nhóm để đăng ký.
